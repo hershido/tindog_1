@@ -1,0 +1,220 @@
+
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: bold;
+}
+
+
+p {
+  padding: 0 20%;
+  color: #979797;
+}
+
+/* Headings */
+
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* Containers */
+
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  color:white;
+  background-color: #ff4c68;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Title Section */
+
+#title {
+  text-align:left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Donload Buttons */
+.download-button {
+  margin: 5% 4% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  margin-left: 30%;
+  position: absolute;
+}
+
+
+
+
+@media (max-width:995px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    margin-left: 0;
+    width: 60%;
+  }
+}
+
+
+
+
+
+/* Feature Section */
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature {
+
+}
+
+.featureicon {
+  font-size: 4.5rem;
+  color: #EF8172;
+  margin-bottom: 1rem;
+}
+
+.featureicon:hover {
+  color: #FF4D69;
+}
+
+/* Testemonial Section */
+
+#testimonials {
+
+  background-color: #EF8172;
+
+}
+
+.testimonial-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+
+
+/* Press Section */
+
+#press {
+  background-color: #EF8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+
+  width: 10%;
+  margin: 20px 40px;
+}
+
+/* Pricing Section */
+
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* CTA Section */
+
+
+.download-button-cta {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 20px;
+}
+
+/* Footer Section */
+
+#footer {
+  padding: 3% 0;
+}
+
+.social-links-div {
+  margin-top: 40px;
+}
+.social-link:link {
+  color:black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.social-link:visited {
+  color: black;
+}
+
+.social-link:hover {
+  color: grey;
+}
+
+.copyright {
+  margin-top: 30px;
+  font-size: 0.3rem;
+}
